@@ -76,7 +76,6 @@ nav ul a:hover{
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #FFC107;
     --bs-gradient: none;
-    width: 150px;
 }
 .loader {
     width: 48px;

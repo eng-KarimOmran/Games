@@ -72,7 +72,7 @@ export default class Ui{
                                 <span class="text-capitalize text-white my-2">Platform: <span class="px-1 text-black bg-info rounded-3">${DetailsCard.platform}</span></span>
                                 <span class="text-capitalize text-white my-2">Status: <span class="px-1 text-black bg-info rounded-3">${DetailsCard.status}</span></span>
                                 <p class="text-white my-2 col-11">${DetailsCard.description}</p>
-                                <a href="${DetailsCard.game_url}"><button class="btn btn-custom my-2">Show Game</button></a>
+                                <div><a href="${DetailsCard.game_url}"><button class="btn btn-custom my-2">Show Game</button></a></div>
                             </div>`
             DetailsElm.innerHTML = container
         }
